@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="MauiLifeCycleTest2.Template2"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Name="temp2">
+    <StackLayout>
+        <Label
+            FontSize="Large"
+            Text="Template Two"
+            TextColor="LightGreen" />
+        <CheckBox x:Name="MyCheckBox2" />
+    </StackLayout>
+</ContentView>
